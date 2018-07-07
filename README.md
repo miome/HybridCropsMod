@@ -12,4 +12,5 @@ Unofficial update for Stardew Valley 1.3 provided by f4iTh https://github.com/f4
  *  Click 'Clone or Download', then 'Download as zip'
  *  On your computer, open the zip file, and copy "HybridCropsMod" to your Mods Directory
  * Run the game using SMAPI.
-
+## Using the mod
+ * To get a Pomato, at the SMAPI console type 'debug itemnamed Pomato 1'
