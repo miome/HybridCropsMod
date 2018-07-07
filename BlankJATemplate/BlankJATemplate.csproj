@@ -30,8 +30,25 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content-pack.json" />
+    <None Include="BigCraftables\BigCraftableNameHere\big-craftable.json" />
+    <None Include="BigCraftables\BigCraftableNameHere\big-craftable.png" />
+    <None Include="Crops\Crop_name_here\crop.json" />
+    <None Include="Crops\Crop_name_here\crop.png" />
+    <None Include="Crops\Crop_name_here\seeds.png" />
+    <None Include="FruitTrees\Ghost\sapling.png" />
+    <None Include="FruitTrees\Ghost\tree.json" />
+    <None Include="FruitTrees\Ghost\tree.png" />
+    <None Include="Objects\Object_name_here\color.png" />
+    <None Include="Objects\Object_name_here\object.json" />
+    <None Include="Objects\Object_name_here\object.png" />
+    <None Include="Objects\RecipeTester\object.json" />
+    <None Include="Objects\RecipeTester\object.png" />
+    <None Include="Objects\RecipeTester2\object.json" />
+    <None Include="Objects\RecipeTester2\object.png" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

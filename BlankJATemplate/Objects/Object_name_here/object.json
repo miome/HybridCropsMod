@@ -1,0 +1,9 @@
+{
+  "Name": "Object name here",
+  "Description": "Put anything you want here, keep it short and simple.",
+  "Category": "Flower", (Available types are "Flower", "Fruit", "Vegetable", "Gem", "Fish", "Egg", "Milk", "Cooking", "Crafting", "Mineral", "Meat", "Metal", "Junk", "Syrup", "MonsterLoot", "ArtisanGoods", and "Seeds")
+  "Edibility": -300, (Edibility is for health, energy is calculated by the game. For inedibile items, set to -300)
+  "Price": 100,
+  "IsColored": false,
+  "Recipe": null (Keep as null, this value is only edited if this is a recipe)
+}

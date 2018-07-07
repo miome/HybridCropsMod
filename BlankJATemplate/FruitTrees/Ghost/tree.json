@@ -1,0 +1,13 @@
+{
+    "Name": "Tree Name",
+    "Product": 156,
+    "SaplingName": "Sapling Name",
+    "SaplingDescription": "Put the season this grows in. Add any flavor text if you'd like to.",
+
+    "Season": "winter",
+
+    "SaplingPurchasePrice": 3000,
+    "SaplingPurchaseRequirements": [
+    "d Wed",
+    ],
+}

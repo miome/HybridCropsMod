@@ -1,0 +1,24 @@
+{
+  "Name": "Big Craftable Name Here",
+  "Description": "Description for what this does. Note if it does anything special like provide light.",
+  "Price": 1,
+  "ProvidesLight": false, (On/off switch for if it provides light or not)
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients" (the numbers in Object are object IDs: https://pastebin.com/TBsGu6Em Look it up here. If you want to use a custom item, you'll have to type its name, like "Honeysuckle"): [
+      {
+        "Object": 337,
+        "Count": 1,
+      },
+      {
+        "Object": 771,
+        "Count": 5,
+      },
+      {
+        "Object": 382,
+        "Count": 1,
+      }
+    ],
+    "IsDefault": true, (this determines if you know the recipe from the start or need to learn it from someone else/buy it)
+  }
+}
