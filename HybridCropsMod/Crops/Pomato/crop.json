@@ -1,0 +1,25 @@
+﻿{
+  "Name": "Crop Name",
+  "Product": "Product Name",
+  "SeedName": "Crop Seed Name",
+  "SeedDescription": "Describe what season you plant these in. Also note if it continues to grow after first harvest and how many days it takes to regrow.",
+  "Type": "Vegetable",
+  "Seasons": [ "spring", "summer", "fall" ],
+  "Phases": [ 1, 1, 1, 1, 1, ],
+  "HarvestWithScythe": false,
+  "TrellisCrop": false,
+  "Colors": null,
+  "Bonus": {
+    "MinimumPerHarvest": 1,
+    "MaximumPerHarvest": 10,
+    "MaxIncreasePerFarmLevel": 5,
+    "ExtraChance": 1.0,
+  },
+
+  "SeedPurchasePrice": 50,
+  "SeedPurchaseRequirements": [
+    "w sunny",
+    "y 2",
+    "d Mon Tue Wed Thu Fri",
+  ],
+}

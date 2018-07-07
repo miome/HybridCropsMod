@@ -23,8 +23,14 @@
       <CustomCommands>
         <Command>
           <type>Build</type>
-          <command>cp -a ${ProjectDir}/* "$sdvmods/${ProjectName}"</command>
+          <command>cp -avf ${ProjectDir}/* "$sdvmods/${ProjectName}"</command>
           <workingdir>${ProjectDir}</workingdir>
+          <externalConsole>True</externalConsole>
+        </Command>
+        <Command>
+          <type>Clean</type>
+          <command>rm -frv "$sdvmods/${ProjectName}/"*</command>
+          <externalConsole>True</externalConsole>
         </Command>
       </CustomCommands>
     </CustomCommands>
@@ -44,10 +50,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="manifest.json" />
-    <None Include="Crops\Pomato\pomato.json" />
+    <None Include="Crops\Pomato\crop.json" />
     <None Include="Objects\PomatoVeg\object.json" />
     <None Include="packages.config" />
-    <None Include="Objects\PomatoVeg\pomato.png" />
+    <None Include="Objects\PomatoVeg\object.png" />
+    <None Include="Crops\Pomato\crop.png" />
+    <None Include="Crops\Pomato\seeds.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Crops\" />
