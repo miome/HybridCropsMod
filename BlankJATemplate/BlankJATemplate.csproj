@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{533CEE3E-407C-4BD8-8201-373ECC81704A}</ProjectGuid>
+    <ProjectGuid>{D3B22169-730A-481D-8619-2B01066BAFEA}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>HybridCropsMod</RootNamespace>
-    <AssemblyName>HybridCropsMod</AssemblyName>
+    <RootNamespace>BlankJATemplate</RootNamespace>
+    <AssemblyName>BlankJATemplate</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -30,15 +30,8 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MyClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="manifest.json" />
-    <None Include="Crops\Pomato\pomato.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Crops\" />
-    <Folder Include="Crops\Pomato\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
