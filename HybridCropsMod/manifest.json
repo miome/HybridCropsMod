@@ -4,7 +4,10 @@
   "Version": "1.0.0",
   "Description": "Adds hybrid crops to Stardew Valley via the JsonAssets mod",
   "UniqueID": "miome.hybridcropsmod",
-  "EntryDll": "HybridCropsMod.dll",
-  "MinimumApiVersion": "2.0",
+
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.JsonAssets"
+  },
+
   "UpdateKeys": []
 }
