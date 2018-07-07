@@ -1,8 +1,8 @@
 ﻿{
-  "Name": "Crop Name",
-  "Product": "Product Name",
-  "SeedName": "Crop Seed Name",
-  "SeedDescription": "Describe what season you plant these in. Also note if it continues to grow after first harvest and how many days it takes to regrow.",
+  "Name": "PomatoPlant",
+  "Product": "Pomato",
+  "SeedName": "PomatoSeeds",
+  "SeedDescription": "Grows in any season but winter, and continues to produce after first harvest.",
   "Type": "Vegetable",
   "Seasons": [ "spring", "summer", "fall" ],
   "Phases": [ 1, 1, 1, 1, 1, ],
