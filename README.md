@@ -14,3 +14,5 @@ Unofficial update for Stardew Valley 1.3 provided by f4iTh https://github.com/f4
  * Run the game using SMAPI.
 ## Using the mod
  * To get a Pomato, at the SMAPI console type 'debug itemnamed Pomato 1'
+ * To get Pomato Seeds, at the SMAPI console type 'debug itemnamed PomatoSeeds 8'
+ * Replace the number at the end with the number of seeds or fruit you want
