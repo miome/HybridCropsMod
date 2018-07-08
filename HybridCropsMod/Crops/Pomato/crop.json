@@ -6,20 +6,17 @@
   "Type": "Vegetable",
   "Seasons": [ "spring", "summer", "fall" ],
   "Phases": [ 1, 1, 1, 1, 1, ],
+  "RegrowthPhase": 3,
   "HarvestWithScythe": false,
   "TrellisCrop": false,
   "Colors": null,
   "Bonus": {
     "MinimumPerHarvest": 1,
-    "MaximumPerHarvest": 10,
+    "MaximumPerHarvest": 2,
     "MaxIncreasePerFarmLevel": 5,
-    "ExtraChance": 1.0,
+    "ExtraChance": 0.1,
   },
-
+  "SeedPurchaseFrom": "Pierre",
   "SeedPurchasePrice": 50,
-  "SeedPurchaseRequirements": [
-    "w sunny",
-    "y 2",
-    "d Mon Tue Wed Thu Fri",
-  ],
+  "SeedPurchaseRequirements": null,
 }
