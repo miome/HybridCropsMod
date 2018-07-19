@@ -1,3 +1,9 @@
 ﻿{
-
+  "Name": "HybridCrops",
+  "Author": "Miome, Sherry Stringfield, and Squishface",
+  "Version": "1.0.0",
+  "Description": "Adds crafting recipes for hybrid crops to Stardew Valley. Requires HybridCrops JAPack",
+  "EntryDll": "HybridCrops.dll",
+  "UniqueID": "miome.hybridcrops",
+  "UpdateKeys": []
 }
