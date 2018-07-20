@@ -13,7 +13,7 @@ namespace HybridCrops
     {
         public override void Entry(IModHelper helper)
         {
-
+            SaveEvents.AfterLoad += this.SaveEvents_AfterLoad;
         }
         public bool CanEdit<T>(IAssetInfo asset)
         {
@@ -25,21 +25,15 @@ namespace HybridCrops
 
             return false;
         }
+        private void SaveEvents_AfterLoad(object sender, EventArgs e){
+            Game1.player.craftingRecipes.Add("Pumpkin Seeds", 0);
+        }
 
         public void Edit<T>(IAssetData asset)
         {
             if (asset.AssetNameEquals("Data/CraftingRecipes"))
             {
-                asset.AsDictionary<string, string>().Data.Add("Pumpkin Seeds", "276 1/Field/490 5/false/Foraging 1");
-                asset.AsDictionary<string, string>().Data.Add("SpringSeeds2", "16 1 18 1 20 1 22 1/Field/495 10/false/Foraging 1");
-                this.Monitor.Log("Edit called, added Pumpkin Seeds entry:" + asset.AsDictionary<string, string>().Data["Pumpkin Seeds"]);
-                foreach (KeyValuePair<string, string> entry in asset.AsDictionary<string, string>().Data)
-                {
-                    if (entry.Key.Contains("Seed"))
-                    {
-                        this.Monitor.Log(entry.Key + " " + entry.Value);
-                    }
-                }
+                asset.AsDictionary<string, string>().Data.Add("Pumpkin Seeds", "276 1/Field/490 5/false/Foraging 1"); 
             }
         }
     }
