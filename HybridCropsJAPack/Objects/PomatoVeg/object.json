@@ -1,0 +1,9 @@
+﻿{
+  "Name": "Pomato",
+  "Description": "Hybrid of Tomatoes and Potatoes.",
+  "Category": "Vegetable",
+  "Edibility": 45,
+  "Price": 140,
+  "IsColored": false,
+  "Recipe": null
+}
